@@ -1,8 +1,8 @@
-# Csi
+# csi
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.3.28.
 
-## npm installation
+## Package installation
 
 Run `npm install` for a dev server for install all npm packages
 
