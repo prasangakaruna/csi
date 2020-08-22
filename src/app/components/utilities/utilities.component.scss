@@ -12,6 +12,29 @@ $danger-color:#ffe7e6;
     right: 10px;
     top: 15px;
 }
+
+.set-pagination {
+    .page-item {
+       a{
+        font-size: 0.8rem;
+       }
+    }
+}
+
+// Heights
+
+.h-55 {
+    height: 55px;
+}
+
+// Width
+
+.w-100 {
+    width: 100%;
+    display: block;
+    
+}
+
 // overiding CSS
 
 .sus {
