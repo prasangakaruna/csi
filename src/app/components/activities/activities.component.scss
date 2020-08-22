@@ -1,21 +1,33 @@
 $data-border-color: #f3f3f3;
+$tab-border-color:#8789f8;
 $btn-border-color: #eaf0f6;
 $font-btn-border-color: #aac2da;
 
 $badge-color:#f3f9ff;
 $badge-font-color:#7697b6;
 $badge-border-color:#7697b6;
+$main-bg-wrapper-color:#fcfdfe;
+$tab-content-bg-color:#fff;
 
+.nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active {
+    border-color: #8789f8 #8789f8 #fff;
+}
+
+.nav-tabs {
+    border-color: $tab-border-color !important; 
+}
 
 .form-data-wrapper { 
     border: 1px solid $data-border-color;
+    background-color: $main-bg-wrapper-color;
 }
 
 .form-data-wrapper {
     .tab-content { 
-        border-left: 1px solid $data-border-color;
-        border-bottom: 1px solid $data-border-color;
-        border-right: 1px solid $data-border-color;
+        border-left: 1px solid $tab-border-color;
+        border-bottom: 1px solid $tab-border-color;
+        border-right: 1px solid $tab-border-color;
+        background-color: $tab-content-bg-color;
     }
 }
 .nav-tabs {
