@@ -1,6 +1,9 @@
 $data-border-color: #f3f3f3;
 $sucess-color: #ebffee;
 $danger-color:#ffe7e6;
+$badge-color:#f3f9ff;
+$badge-font-color:#7697b6;
+$badge-border-color:#7697b6;
 
 .form-data-wrapper {
     border-radius: 1rem;
@@ -19,6 +22,19 @@ $danger-color:#ffe7e6;
         font-size: 0.8rem;
        }
     }
+}
+
+.custom-badge2 {
+    background-color: $badge-color;
+    border: 1px solid $badge-border-color;
+    color: $badge-font-color;
+}
+
+.close-position {
+    color: #afbac8;  
+    position: absolute;
+    right: 0px;
+    top: 10px;
 }
 
 // Heights
