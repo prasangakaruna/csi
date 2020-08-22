@@ -6,7 +6,10 @@ $badge-font-color:#7697b6;
 $badge-border-color:#7697b6;
 
 .form-data-wrapper {
-    border-radius: 1rem;
+    border-top-left-radius: 0px;
+    border-top-right-radius: 1rem;
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 1rem;
     border: 1px solid $data-border-color;
 }
 
@@ -37,6 +40,7 @@ $badge-border-color:#7697b6;
     top: 10px;
 }
 
+
 // Heights
 
 .h-55 {
@@ -60,3 +64,4 @@ $badge-border-color:#7697b6;
 .dan {
     background-color: $danger-color;
 }
+

@@ -3,7 +3,10 @@ $PlaceHolder-color: #cfcfcf;
 $Icon-color: #414141;
 
 .form-data-wrapper {
-    border-radius: 1rem;
+    border-top-left-radius: 1rem;
+    border-top-right-radius: 0rem;
+    border-bottom-left-radius: 1rem;
+    border-bottom-right-radius: 0rem; 
     border: 1px solid $data-border-color;
     position: relative;
 }

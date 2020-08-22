@@ -2,9 +2,12 @@ $data-border-color: #f3f3f3;
 $btn-border-color: #eaf0f6;
 $font-btn-border-color: #aac2da;
 
+$badge-color:#f3f9ff;
+$badge-font-color:#7697b6;
+$badge-border-color:#7697b6;
 
-.form-data-wrapper {
-    border-radius: 1rem;
+
+.form-data-wrapper { 
     border: 1px solid $data-border-color;
 }
 
@@ -28,6 +31,15 @@ $font-btn-border-color: #aac2da;
     height: 55px;
 }
 
+.set-pagination {
+    .page-item {
+       a{
+        font-size: 0.8rem;
+        border: 1px solid $badge-border-color;
+       }
+    }
+}
+
 .equal {
     vertical-align: middle;
     position: relative;
@@ -37,6 +49,12 @@ $font-btn-border-color: #aac2da;
 
 .rule-data-wrapper {
     border: 1px solid $data-border-color;
+}
+
+.custom-badge2 {
+    background-color: $badge-color;
+    border: 1px solid $badge-border-color;
+    color: $badge-font-color;
 }
 
 // Height
