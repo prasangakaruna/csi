@@ -1,6 +1,56 @@
 $data-border-color: #f3f3f3;
+$btn-border-color: #eaf0f6;
+$font-btn-border-color: #aac2da;
+
 
 .form-data-wrapper {
     border-radius: 1rem;
     border: 1px solid $data-border-color;
 }
+
+.form-data-wrapper {
+    .tab-content { 
+        border-left: 1px solid $data-border-color;
+        border-bottom: 1px solid $data-border-color;
+        border-right: 1px solid $data-border-color;
+    }
+}
+.nav-tabs {
+    border-color: $data-border-color; 
+}
+
+.main-box-wrapper {
+    border: 1px solid $data-border-color; 
+}
+
+.box-wrapper {
+    border: 1px solid $data-border-color;
+    height: 55px;
+}
+
+.equal {
+    vertical-align: middle;
+    position: relative;
+    line-height: 50px;
+    font-size: x-large;
+}
+
+.rule-data-wrapper {
+    border: 1px solid $data-border-color;
+}
+
+// Height
+
+.h-55 {
+    height: 55px;
+}
+.h-35 {
+    height: 35px;
+}
+.rule-btn-color {
+    background-color: #fff !important;
+    border: 1px solid $btn-border-color;
+    color: $font-btn-border-color;
+}
+
+ 
