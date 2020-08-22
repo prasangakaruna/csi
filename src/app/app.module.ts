@@ -10,6 +10,7 @@ import { SidebarComponent } from './components/sidebar/sidebar.component';
 import { DataComponent } from './components/data/data.component';
 import { ActivitiesComponent } from './components/activities/activities.component';
 import { UtilitiesComponent } from './components/utilities/utilities.component';
+import { FilterationComponent } from './filteration/filteration.component';
 
 @NgModule({
   declarations: [
@@ -20,7 +21,8 @@ import { UtilitiesComponent } from './components/utilities/utilities.component';
     SidebarComponent,
     DataComponent,
     ActivitiesComponent,
-    UtilitiesComponent
+    UtilitiesComponent,
+    FilterationComponent
   ],
   imports: [
     BrowserModule,

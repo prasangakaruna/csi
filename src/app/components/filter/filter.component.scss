@@ -1,0 +1,34 @@
+// button-colors
+
+$backto-dashboard: #fff;
+$backto-dashboard-border-color:#b5cbdf;
+$backto-dashboard-font-color: #698cae;
+
+$saveto-draft: #90a2b2;
+$saveto-draft-btn-font-color: #fff;
+
+$saveto-save:#2ed573;
+$saveto-save-btn-font-color:#fff;
+
+.boxsing-user {
+    background-color: #fff;
+}
+.back-to-dashboard {
+    background-color: $backto-dashboard;
+    border: 1px solid $backto-dashboard-border-color;
+    color:$backto-dashboard-font-color;
+    height: 55px;
+}
+.saveto-draft {
+    background-color: $saveto-draft;
+    border: 1px solid $saveto-draft;
+    height: 55px;
+    color: $saveto-draft-btn-font-color;
+}
+
+.save {
+    background-color: $saveto-save;
+    border: 1px solid $saveto-save;
+    height: 55px;
+    color: $saveto-save-btn-font-color;
+}

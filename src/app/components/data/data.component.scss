@@ -1,0 +1,33 @@
+$data-border-color: #f3f3f3; 
+$PlaceHolder-color: #cfcfcf;
+$Icon-color: #414141;
+
+.form-data-wrapper {
+    border-radius: 1rem;
+    border: 1px solid $data-border-color;
+}
+
+.font-search-icon  {
+    position: absolute;
+    top: 42%;
+    right: 18%;
+    font-size: 1.2rem;
+    color: $Icon-color ; 
+}
+
+// Common CSS
+
+.h-55 {
+    height: 55px;
+}
+
+::placeholder{
+    color: $PlaceHolder-color; 
+} 
+
+
+.form-control:focus {
+    border-color: inherit;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+} 
