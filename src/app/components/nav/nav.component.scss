@@ -1,7 +1,13 @@
 .sidebar {
     background-color: #cabea2;
-    height: 100%;
-    position: fixed;
+    height: 1063px;
+    position: absolute;
+    top: 0px; 
+    display: inline-table;
+    
+    a:first-child{
+        margin-top: 90px;
+    }
     
     a{
         width: 40px;

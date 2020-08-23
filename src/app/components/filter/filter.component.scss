@@ -10,6 +10,8 @@ $saveto-draft-btn-font-color: #fff;
 $saveto-save:#2ed573;
 $saveto-save-btn-font-color:#fff;
 
+$gray-color:#a4a0a0;
+
 .boxsing-user {
     background-color: #fff;
 }
@@ -18,11 +20,13 @@ $saveto-save-btn-font-color:#fff;
     border: 1px solid $backto-dashboard-border-color;
     color:$backto-dashboard-font-color;
     height: 55px;
+    font-size: 1.1rem;
 }
 .saveto-draft {
     background-color: $saveto-draft;
     border: 1px solid $saveto-draft;
     height: 55px;
+    font-size: 1.1rem;
     color: $saveto-draft-btn-font-color;
 }
 
@@ -30,5 +34,17 @@ $saveto-save-btn-font-color:#fff;
     background-color: $saveto-save;
     border: 1px solid $saveto-save;
     height: 55px;
+    font-size: 1.1rem;
     color: $saveto-save-btn-font-color;
+}
+
+h4.sub-header {
+    font-weight: 700;
+    font-size: 1.5rem; 
+}
+.expression {
+    p {
+        color: $gray-color;
+        font-size: 0.8rem;
+    }
 }
