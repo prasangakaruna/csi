@@ -100,10 +100,29 @@ $Link-next-color:#666;
             font-weight: 500;
             line-height: 10px;
         }
+       
+    }
+    .list-group-item:nth-child(2) {
+       
+       &::after {
+                background: #5f62f6;
+                content: "";
+                height: 100%;
+                left: 0;
+                position: absolute;
+                top: 0;
+                width: 3px;
+            
+       }   
     }
    
 }
 
 .list-group-item:first-child {
     border-radius: 0px; 
+}
+.prop-down {
+    position: absolute;
+    top: 15px;
+    right: 10px;
 }

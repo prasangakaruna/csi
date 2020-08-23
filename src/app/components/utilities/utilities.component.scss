@@ -1,16 +1,23 @@
 $data-border-color: #f3f3f3;
+$tab-border-color:#8789f8;
 $sucess-color: #ebffee;
 $danger-color:#ffe7e6;
 $badge-color:#f3f9ff;
 $badge-font-color:#7697b6;
 $badge-border-color:#7697b6;
+$add-bg-clor:#224566;
+$font-add-bt-color:#fff;
+$select-font-color:#aeb1b3;
+$button-color:#1f6ece;
+$validataion-box-clolor:#3b5a77;
 
 .form-data-wrapper {
     border-top-left-radius: 0px;
     border-top-right-radius: 1rem;
     border-bottom-left-radius: 0px;
     border-bottom-right-radius: 1rem;
-    border: 1px solid $data-border-color;
+    border: 1px solid $tab-border-color;
+    box-shadow: 1px 2px 14px 4px #cfcfcf;
 }
 
 .re-position-bin  {
@@ -22,7 +29,9 @@ $badge-border-color:#7697b6;
 .set-pagination {
     .page-item {
        a{
-        font-size: 0.8rem;
+        font-size: 0.8rem; 
+        color: $badge-border-color;
+        border: 1px solid $badge-border-color;
        }
     }
 }
@@ -59,9 +68,80 @@ $badge-border-color:#7697b6;
 
 .sus {
     background-color: $sucess-color;
+    color: $badge-font-color;
 }
 
 .dan {
     background-color: $danger-color;
+    color: $badge-font-color;
 }
 
+.border-radius-10 {
+    border-radius: 10px;
+}
+
+.btn-dark-rest {
+    background-color: $add-bg-clor;
+    color: $font-add-bt-color;
+}
+
+.styled-select {
+    position: relative;
+    select {
+        -moz-appearance:none; /* Firefox */
+        -webkit-appearance:none; /* Safari and Chrome */
+        appearance:none;
+    }
+    i {
+        position: absolute;
+        right: 15px;
+        top: 18px;
+        font-size: 1.2rem;
+    }
+}
+
+.utities {
+    span {
+        color: $badge-font-color;
+        font-size: 1rem;
+    }
+}
+.utities-set {
+    label {
+        color: $badge-font-color;
+    } 
+    select {
+        color: $select-font-color;
+    }
+}
+
+.btn-color {
+    background-color: $button-color !important;
+    color: $font-add-bt-color !important;
+}
+
+.badge-success {
+    line-height: 25px;
+    background-color: #afebb8 ;
+    color: #018a60;
+    padding-right: 10px;
+    padding-left: 10px;
+    margin-left: 10px;
+    border-radius: 5px;
+    font-size: 0.9rem;
+}
+
+.badge-danger {
+    line-height: 25px;
+    background-color: #ffa49d ;
+    color: #84160e;
+    padding-right: 10px;
+    padding-left: 10px;
+    margin-left: 10px;
+    border-radius: 5px;
+    font-size: 0.9rem;
+}
+
+.gray-color {
+    color: $badge-font-color;
+}

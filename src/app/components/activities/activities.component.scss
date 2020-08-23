@@ -8,6 +8,11 @@ $badge-font-color:#7697b6;
 $badge-border-color:#7697b6;
 $main-bg-wrapper-color:#fcfdfe;
 $tab-content-bg-color:#fff;
+$delete-icon-color:#c1c6cb;
+
+$font-add-bt-color:#fff;
+$button-color:#1f6ece;
+
 
 .nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active {
     border-color: #8789f8 #8789f8 #fff;
@@ -15,6 +20,7 @@ $tab-content-bg-color:#fff;
 
 .nav-tabs {
     border-color: $tab-border-color !important; 
+   
 }
 
 .form-data-wrapper { 
@@ -28,6 +34,7 @@ $tab-content-bg-color:#fff;
         border-bottom: 1px solid $tab-border-color;
         border-right: 1px solid $tab-border-color;
         background-color: $tab-content-bg-color;
+        box-shadow: 1px 2px 14px 4px #cfcfcf;
     }
 }
 .nav-tabs {
@@ -137,7 +144,14 @@ $tab-content-bg-color:#fff;
 .margin-fix {
     margin-top: 25px;
 }
-  
+
+.set-delete-icon {
+    position: absolute;
+    right: -12px;
+    top: 35px;
+    color: $delete-icon-color;
+    cursor: pointer;
+}
 // Height
 
 .h-55 {
@@ -169,4 +183,24 @@ $tab-content-bg-color:#fff;
     outline: #cfcfcf;
     width: 200px;
     transform: rotate(90deg);
+}
+
+.styled-select {
+    position: relative;
+    select {
+        -moz-appearance:none; /* Firefox */
+        -webkit-appearance:none; /* Safari and Chrome */
+        appearance:none;
+    }
+    i {
+        position: absolute;
+        right: 15px;
+        top: 18px;
+        font-size: 1.2rem;
+    }
+}
+
+.btn-color {
+    background-color: $button-color !important;
+    color: $font-add-bt-color !important;
 }
