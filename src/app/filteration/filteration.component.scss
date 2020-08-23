@@ -1,7 +1,8 @@
 // button-colors
 
 $backto-dashboard: #fff;
-$border-bt-color:#f3f3f3; 
+$border-bt-color:#f3f3f3;
+$gray-color:#4e4d4d; 
 
 .boxsing-user {
     background-color: #fff;
@@ -17,6 +18,26 @@ $border-bt-color:#f3f3f3;
 
 // Width
 
-.w-450 {
-    width: 450px;
+.w-400 {
+    width: 400px;
+}
+
+.gray {
+    color: $gray-color; 
+    font-weight: 500;   
+}
+
+.styled-select {
+    position: relative;
+    select {
+        -moz-appearance:none; /* Firefox */
+        -webkit-appearance:none; /* Safari and Chrome */
+        appearance:none;
+    }
+    i {
+        position: absolute;
+        right: 15px;
+        top: 18px;
+        font-size: 1.2rem;
+    }
 }

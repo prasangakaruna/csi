@@ -1,6 +1,11 @@
 $data-border-color: #f3f3f3; 
 $PlaceHolder-color: #cfcfcf;
 $Icon-color: #414141;
+$Icon-font-color: #fff;
+$Liner-color:#5f62f6;
+$Menu-icon-color:#698cad;
+$Icon-font-link-color:#b8c2ce;
+$Link-next-color:#666;
 
 .form-data-wrapper {
     border-top-left-radius: 1rem;
@@ -27,6 +32,26 @@ $Icon-color: #414141;
 }
 .result-number {
     font-size: small;
+    color:$Icon-font-link-color;
+}
+.result--tnumber{
+    color: $Link-next-color;
+}
+.pt-sim {
+    li.active{
+       span{
+        background-color: #708095!important; 
+        border: 1px solid #708095;
+       }
+    }
+    li {
+      
+        a,span {
+            font-size: 0.7rem;
+            color: #708095;
+            
+        }
+    }
 }
 // Common CSS
 
@@ -54,6 +79,31 @@ $Icon-color: #414141;
     border-top-width: 1px !important;
     border-radius: 0px; 
 }
+.form-data-wrapper {
+     
+    .active{
+      background-color: $Liner-color; 
+      border: 1px solid $Liner-color;  
+      color: $Icon-font-color;
+      p,i,span{
+        color: $Icon-font-color !important;
+      } 
+    }
+    .list-group-item {
+        i {
+            font-size: 1.3rem;
+            line-height: 20px;
+            color: $Menu-icon-color;
+        }
+        p {
+            color: $Menu-icon-color;
+            font-weight: 500;
+            line-height: 10px;
+        }
+    }
+   
+}
+
 .list-group-item:first-child {
     border-radius: 0px; 
 }
