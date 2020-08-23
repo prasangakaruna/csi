@@ -69,6 +69,75 @@ $tab-content-bg-color:#fff;
     color: $badge-font-color;
 }
 
+.dubble-arrow-top:first-child {
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+.dubble-arrow-top {
+    font-size: 2rem; 
+    text-align: center;
+    border: 1px solid #abc4db;
+    width: 30px;
+    background-color: #fff;
+    height: 30px;
+    i {
+         
+        color: #708095;
+        cursor: pointer;
+        vertical-align: top;
+        font-size: 1.5rem;
+       
+    }
+}
+
+.positioning-top {
+    position: absolute;
+    top: 5px;
+    right: 5px;
+}
+
+.margin-fix {
+    margin-top: 25px;
+}
+
+.dubble-arrow-bottom:nth-child(2) {
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+.dubble-arrow-bottom {
+    font-size: 2rem; 
+    text-align: center;
+    border: 1px solid #abc4db;
+    width: 30px;
+    background-color: #fff;
+    height: 30px;
+    i {
+       
+        color: #708095;
+        cursor: pointer;
+        vertical-align: top;
+        font-size: 1.5rem;
+       
+    }
+}
+
+.positioning-bottom {
+    position: absolute;
+    bottom: 5px;
+    right: 5px;
+}
+
+.dubble-set {
+    .page-item{
+        a{
+            padding: 5px;
+        }
+    }
+}
+.margin-fix {
+    margin-top: 25px;
+}
+  
 // Height
 
 .h-55 {
@@ -83,4 +152,21 @@ $tab-content-bg-color:#fff;
     color: $font-btn-border-color;
 }
 
- 
+.liner-margin-fix {
+    margin-left: 15%;
+}
+
+.hr-site {
+    position: absolute; 
+    width: 70px;
+    top: 27px;
+    left: -46px;
+}
+.vertical-liner {
+    position: absolute;
+    left: -45px;
+    top: 104px;
+    outline: #cfcfcf;
+    width: 200px;
+    transform: rotate(90deg);
+}
